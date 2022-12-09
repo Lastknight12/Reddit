@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>...</title>
+  </head>
+  <body style="display: flex; align-items: center; justify-content: center">
+    <h1>The past always has its weight</h1>
+    <input id="code" type="text"/>
+  </body>
+  <script>
+    let code = document.getElementById("code");
+    code.addEventListener("input", chek)
+
+    function chek () {
+        if(this.value == "ok") {
+            alert("ok")
+        }
+    }
+  </script>
+</html>
