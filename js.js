@@ -2,7 +2,7 @@
     code.addEventListener("input", chek)
 
     function chek () {
-        if(this.value == "114534797" || "114 534 797") {
+        if(this.value == "114534797") {
             alert("ok")
         }
     }
